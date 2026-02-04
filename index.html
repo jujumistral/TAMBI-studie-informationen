@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Studieninformation</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Studieninformation</h1>
+            <p class="subtitle">Teilnehmerinformationen und Datenschutzerklärung</p>
+        </header>
+
+        <main>
+            <section class="info-section">
+                <h2>Informationen zur Studie</h2>
+                <p>Vielen Dank für Ihr Interesse an unserer Studie. Auf dieser Seite finden Sie alle relevanten Informationen zur Teilnahme sowie unsere Datenschutzerklärung.</p>
+                <p>Bitte lesen Sie das Dokument sorgfältig durch, bevor Sie an der Studie teilnehmen.</p>
+                <p>Das Dokument steht Ihnen hier in der PDF-Version zum Download zur Verfügung.</p>
+                <p>Sollten Sie Fragen haben, wenden Sie sich gerne jederzeit an die Studienleitung.</p>
+            </section>
+
+            <section class="pdf-section">
+                <h2>Studiendokument</h2>
+                <div class="pdf-viewer-container">
+                    <iframe id="pdf-viewer" src="studieninformation.pdf" title="Studieninformation PDF"></iframe>
+                </div>
+                <div class="download-section">
+                    <a href="studieninformation.pdf" download class="download-btn">
+                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M10 14L5 9H8V3H12V9H15L10 14Z" fill="currentColor"/>
+                            <path d="M17 16H3V18H17V16Z" fill="currentColor"/>
+                        </svg>
+                        Dokument herunterladen (PDF)
+                    </a>
+                </div>
+            </section>
+
+            <section class="contact-section">
+                <h2>Kontakt</h2>
+                <div class="contact-grid">
+                    <div class="contact-item">
+                        <h3>Studienleitung vor Ort</h3>
+                        <p><strong>Name:</strong> Julia Senfft</p>
+                        <p><strong>Institution:</strong> Universität Bielefeld</p>
+                    </div>
+                    <div class="contact-item">
+                        <h3>Principal Investigator</h3>
+                        <p><strong>Name:</strong> Dr. Ondrej Zika</p>
+                        <p><strong>Institution:</strong> Universität Bielefeld, University College Dublin</p>
+                    </div>
+                    <div class="contact-item">
+                        <h3>Kontaktdaten</h3>
+                        <p><strong>E-Mail:</strong> <a href="mailto:tambi-study@uni-bielefeld.de">tambi-study@uni-bielefeld.de</a></p>
+                    </div>
+                    <div class="contact-item">
+                        <h3>Fakultät Psychologie & Sportwissenschaften</h3>
+                        <p>AE14 Biologische Psychologie und Kognitive Neurowissenschaft</p>
+                        <p>Lonsdorf Lab</p>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <p>&copy; 2026 Dr. Ondrej Zika. Alle Rechte vorbehalten.</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
