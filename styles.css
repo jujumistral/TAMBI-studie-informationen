@@ -40,6 +40,7 @@ header h1 {
 
 .subtitle {
     font-size: 1.1rem;
+    color: white;
     opacity: 0.95;
     font-weight: 300;
 }
