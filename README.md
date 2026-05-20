@@ -1,7 +1,5 @@
 # Studieninformation Website
 
-Eine professionelle Website zur Bereitstellung von Studieninformationen und Datenschutzerklärungen für Versuchspersonen.
-
 ## Features
 
 - 📄 PDF-Viewer zur direkten Anzeige des Studiendokuments
@@ -18,25 +16,9 @@ Eine professionelle Website zur Bereitstellung von Studieninformationen und Date
 - **studieninformation.pdf** - Studiendokument
 - **README.md** - Diese Übersicht
 
-## Anpassungsmöglichkeiten
-
-### Farben ändern
-
-In `styles.css` können die Farbverläufe angepasst werden:
-
-```css
-/* Hauptfarbverlauf (aktuell: Lila/Blau) */
-background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-
-/* Andere Farbideen: */
-/* Grün: #11998e 0%, #38ef7d 100% */
-/* Blau: #2193b0 0%, #6dd5ed 100% */
-/* Orange: #f46b45 0%, #eea849 100% */
-```
-
 ### PDF-Höhe anpassen
 
-In `styles.css`, Zeile 96:
+In `styles.css`:
 
 ```css
 .pdf-viewer-container {
@@ -51,6 +33,3 @@ In `styles.css`, Zeile 96:
 - Safari: ✅ Vollständige Unterstützung
 - Mobile Browser: ✅ Responsive Design
 
-## Lizenz
-
-Frei verwendbar für wissenschaftliche Studien.
